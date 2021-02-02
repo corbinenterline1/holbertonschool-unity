@@ -7,12 +7,14 @@ public class PlayerController : MonoBehaviour
     // SerializeField lets the editor see the private value, without other scripts seeing it.
     // A public variable would be needed in that case.
     [SerializeField]
-    private float _moveSpeed = 5f;
+    public float _moveSpeed = 5f;
     [SerializeField]
     private float _gravity = 9.81f;
     [SerializeField]
     private float _jumpSpeed = 3.5f;
     private CharacterController _controller;
+
+    private Vector3 respawn = new Vector3(0, 0, 0);
 
     private float _directionY;
 
@@ -55,6 +57,11 @@ public class PlayerController : MonoBehaviour
         
         direction.y = _directionY;
 
-        _controller.Move(direction * _moveSpeed * Time.deltaTime);
+        _controller.Move(transform.TransformDirection(direction * _moveSpeed * Time.deltaTime));
+
+        if (transform.position.y <-50)
+        {
+            transform.position = respawn + new Vector3(0, 40, 0);
+        }
     }
 }
