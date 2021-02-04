@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,6 +25,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float _doubleJumpMultiplier = 0.5f;
 
+    public Timer timey;
+
+    private Text default_timey;
+
+    private bool respawning = false;
+
+    public GameObject all_boosts;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +42,23 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("menu");
+            Cursor.lockState = CursorLockMode.None;
+        }
+        float horizontalInput;
+        float verticalInput;
+        if (!respawning)
+        {
+            horizontalInput = Input.GetAxis("Horizontal");
+            verticalInput = Input.GetAxis("Vertical");
+        }
+        else
+        {
+            horizontalInput = 0;
+            verticalInput = 0;
+        }
 
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
 
@@ -61,7 +86,33 @@ public class PlayerController : MonoBehaviour
 
         if (transform.position.y <-50)
         {
-            transform.position = respawn + new Vector3(0, 40, 0);
+            all_boosts.SetActive(true);
+            int boost_count = 1;
+            for (int i = 0; i < boost_count; i++)
+            {
+                all_boosts.transform.GetChild(i).gameObject.SetActive(true);
+            }
+            transform.position = respawn + new Vector3(0, 50, 0);
+            respawning = true;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Respawn")
+        {
+            respawning = false;
+        }
+        if (other.tag == "Boost")
+        {
+            _canDoubleJump = true;
+            other.gameObject.SetActive(false);
+            // Destroy(other.gameObject);
+            _directionY = _jumpSpeed;
+            _directionY -= _gravity * Time.deltaTime;
+            Vector3 boost_direction = new Vector3(0, 0, 0);
+            boost_direction.y = _directionY;
+            _controller.Move(transform.TransformDirection(boost_direction * _moveSpeed * Time.deltaTime));
         }
     }
 }
