@@ -1074,11 +1074,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitButton
       objectReference: {fileID: 0}
-    - target: {fileID: 8066928444508632164, guid: fd3004c1504c83849b25b95a8ab788b5,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8066928444508632166, guid: fd3004c1504c83849b25b95a8ab788b5,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1193,11 +1188,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 679276624}
     m_Modifications:
-    - target: {fileID: 5567735067691793223, guid: c30cd38eb9dba0c4b8c4a58427ef3a18,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 5567735068498481874, guid: c30cd38eb9dba0c4b8c4a58427ef3a18,
         type: 3}
       propertyPath: m_Name
@@ -1306,11 +1296,6 @@ PrefabInstance:
     - target: {fileID: 5567735068498481901, guid: c30cd38eb9dba0c4b8c4a58427ef3a18,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5567735068498481903, guid: c30cd38eb9dba0c4b8c4a58427ef3a18,
-        type: 3}
-      propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
