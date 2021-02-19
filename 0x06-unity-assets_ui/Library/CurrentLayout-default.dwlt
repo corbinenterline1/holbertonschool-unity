@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 93
+  controlID: 64
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 65
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 66
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,18 +344,18 @@ MonoBehaviour:
       y: 21
       width: 801
       height: 664
-    m_Scale: {x: 1.1592739, y: 1.1592739}
-    m_Translation: {x: 365.5191, y: 347.7636}
+    m_Scale: {x: 1.1214622, y: 1.1214622}
+    m_Translation: {x: 362.44415, y: 349.94092}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -315.30005
-      y: -299.984
-      width: 690.94977
-      height: 572.77234
+      x: -323.1889
+      y: -312.03986
+      width: 714.2461
+      height: 592.08417
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 801, y: 685}
@@ -429,20 +429,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Textures/UI
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Textures/UI
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\corbi\Holberton Unity\holbertonschool-unity\0x06-unity-assets_ui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72380000
-    m_LastClickedID: 14450
-    m_ExpandedIDs: 00000000dc360000de360000e0360000e2360000e4360000e6360000e8360000ea360000ec360000ee36000000ca9a3b
+    m_SelectedIDs: 86380000
+    m_LastClickedID: 14470
+    m_ExpandedIDs: 00000000e8360000ea360000ec360000ee360000f0360000f2360000f4360000f6360000f8360000fa36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,7 +470,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc360000de360000e0360000e2360000e4360000e6360000e8360000ea360000ec360000ee360000
+    m_ExpandedIDs: 00000000e8360000ea360000ec360000ee360000f0360000f2360000f4360000f6360000f8360000fa360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,9 +593,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 84360000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 56fbffff66fbffff6afbffff34360000
+      m_SelectedIDs: 0e360000
+      m_LastClickedID: 13838
+      m_ExpandedIDs: 6afbffff34360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
