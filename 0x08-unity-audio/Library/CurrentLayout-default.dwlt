@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 278
     height: 1291
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 706
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 706
     width: 1000
     height: 585
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 15}
@@ -301,8 +301,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 14176
+    m_SelectedIDs: 5e370000
+    m_LastClickedID: 14174
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
       splitSize: 6
       xOffset: 0
     m_HorizontalSplitter:
-      ID: 93
+      ID: 121
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes: 2c010000bb020000
@@ -561,7 +561,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 44380000
     m_LastClickedID: 14404
-    m_ExpandedIDs: 000000006a3700006c3700006e37000070370000723700007437000076370000783700007a3700007c370000
+    m_ExpandedIDs: 00000000683700006a3700006c3700006e37000070370000723700007437000076370000783700007a370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,7 +589,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a3700006c3700006e37000070370000723700007437000076370000783700007a3700007c370000
+    m_ExpandedIDs: 00000000683700006a3700006c3700006e37000070370000723700007437000076370000783700007a370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -712,9 +712,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 30360000
-      m_LastClickedID: 13872
-      m_ExpandedIDs: 28fbffff6afbffff
+      m_SelectedIDs: 2e360000
+      m_LastClickedID: 13870
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
