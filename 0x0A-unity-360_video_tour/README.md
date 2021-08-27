@@ -8,7 +8,7 @@ Task 3 | The full tour
 Task 4 | Tell me more
 Task 5 | Points of interest
 Task 6 | No need for silence
-Task 7 | [Building Tour]()
+Task 7 | [Building Tour](https://drive.google.com/file/d/1JBlso0MUyBi287-A56RzX4JpmUYQETrY/view?usp=sharing)
 
  ## Lessons Learned
 * What is 3DOF vs 6DOF
