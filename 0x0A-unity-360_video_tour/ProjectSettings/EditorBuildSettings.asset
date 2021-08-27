@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Living Room.unity
+    guid: 9614f8ff7729b6247a3a1fd9136e9bec
+  - enabled: 1
+    path: Assets/Scenes/Cube.unity
+    guid: 415fe69ddc452c140a727696d4abb47a
+  - enabled: 1
+    path: Assets/Scenes/Cantina.unity
+    guid: d9f55ccd5ae66b643b732d4fcb5f6407
+  - enabled: 1
+    path: Assets/Scenes/Mezzanine.unity
+    guid: 9ad12c7bfe247b841bc699aecd76a7ff
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 0e1189f53723c084baa73cdb499780bd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 728b725dc1cb772498a106132c2753a7, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 35e51335134550e46acb0f30ac453b74, type: 2}
